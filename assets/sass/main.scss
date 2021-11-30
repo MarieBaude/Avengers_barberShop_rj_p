@@ -1,0 +1,20 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/extends';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'components/buttons';
+
+@import 'pages/home';
+@import 'pages/services';
+@import 'pages/shop';
+@import 'pages/gallery';
+@import 'pages/blog';
+@import 'pages/reservation';
+@import 'pages/contact';
