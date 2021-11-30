@@ -1,0 +1,12 @@
+$base-color: rgba(88, 32, 15, 0.815);
+$text-alogn: center;
+.containerfooter {
+    display: flex;
+    justify-content :space-around;
+    background-color: $base-color;
+    text-align: $text-alogn;
+    position: relative;
+    box-shadow: rgb(88, 32, 15)2px 3px 2px;
+    bottom: 0;
+    clear: both;
+}
