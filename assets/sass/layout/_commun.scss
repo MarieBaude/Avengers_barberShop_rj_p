@@ -1,3 +1,17 @@
+html{
+    height:100%;
+    width:100%;
+}
+
+body{
+    height:100%;
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+
+/*----------------------------------*/
+
 .containerMainApp{
     display: grid;
     grid-template-columns: 100%;
@@ -28,12 +42,4 @@
 .bannerApp img{
     border-radius: 50%;
     width:10rem;
-}
-
-@media all and (max-width:1503px){
-    /* banner */
-    .bannerApp img{
-        border-radius: 50%;
-        width:7rem;
-    }
 }

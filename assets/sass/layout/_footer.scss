@@ -1,0 +1,73 @@
+.containerfooter{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(88, 32, 15, 0.815);
+    color: white;
+    text-align: center;
+    box-shadow: rgb(88, 32, 15)2px 3px 2px;
+    bottom: 0;
+    clear: both;
+    position: relative;
+}
+
+.sectionInfos{
+    text-align: center;
+    font-size: 1vw;
+}
+
+.reservationContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.tableReservation{
+    box-shadow: rgb(88, 32, 15)2px 3px 2px;
+    width: 60%;
+}
+
+.sectionTable table{
+    width: 100%;
+    text-align: center;
+}
+.sectionTable th{
+     color: rgb(88, 32, 15);
+     font-weight: bolder;
+     font-size: 2rem;
+     
+}
+
+.puceTd{
+    background-color: gold;
+    border-radius: 5%;
+    color:rgb(88, 32, 15);
+    box-shadow: rgb(88, 32, 15)2px 3px 2px;
+    cursor: pointer;
+   
+}
+.puceTd:hover{
+    transform: scale(1.05);
+}
+
+.sectionTable td div{
+    width: 5px;
+    height: 5px;
+    background-color: rgb(233, 71, 21);
+}
+
+.sectionTable{
+    width: 50%;
+}
+
+.containerMainApp {
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+
+@media all and (max-width:800px) {
+    .containerfooter{
+        display: flex;
+        flex-direction: column;
+    }
+}
