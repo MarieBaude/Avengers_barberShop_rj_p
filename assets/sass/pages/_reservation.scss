@@ -1,0 +1,23 @@
+@media all and (max-width:800px) {
+    .sectionTable{
+        margin-top: 3rem;
+        width: 30%;
+    }
+    .containerMainApp {
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+@media all and (max-width:1503px){
+
+    .sectionTable{
+        margin-top: 3rem;
+        width: 70%;
+    }
+
+    .containerMainApp {
+        text-align: center;
+        font-size: 3vw;
+    }
+}
