@@ -21,14 +21,18 @@ body{
 .bannerApp {
     width: 100%;
     height: 15rem;
-    box-shadow:rgba(99, 49, 2, 0.973) 1.5rem 0rem 1.5rem;
+    @include bannerApp-shadow($color-brownLight);
     grid-column-start: 1;
     grid-row-end: 1;
-    background-image: url("./../img/banner.jpeg");
+    background-image: url("./../../img/banner.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #464646;
+    background-color: $color-grey;
+    & img {
+        border-radius: 50%;
+        width: 10rem;    
+    }
 }
 
 .containerImagesBanner{
@@ -39,7 +43,3 @@ body{
     justify-content: space-around;
 }
 
-.bannerApp img{
-    border-radius: 50%;
-    width:10rem;
-}
