@@ -1,10 +1,11 @@
 {
-  "name": "package.json",
+  "name": "assets",
+
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch ./sass/main.scss:.public/css/style.css --style compressed"
   },
   "author": "",
   "license": "ISC"
