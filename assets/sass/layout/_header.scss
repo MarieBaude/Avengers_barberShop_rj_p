@@ -1,0 +1,18 @@
+
+/* nav bar css*/
+
+.gridContainerNavbar
+ {
+    display: grid;
+    grid-template-columns: 100%;
+    width:100%;
+    gap: 0;
+    top: 0;
+    position: absolute;
+}
+
+.hamburger {
+    display: none;
+    margin: 2%;
+    
+}

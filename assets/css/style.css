@@ -1,1 +1,1 @@
-.containerfooter{display:flex;justify-content:space-around;background-color:rgba(88,32,15,.815);text-align:center;position:relative;box-shadow:#58200f 2px 3px 2px;bottom:0;clear:both}/*# sourceMappingURL=style.css.map */
+.gridContainerNavbar{display:grid;grid-template-columns:100%;width:100%;gap:0;top:0;position:absolute}.hamburger{display:none;margin:2%}.containerfooter{display:flex;justify-content:space-around;background-color:rgba(88,32,15,.815);text-align:center;position:relative;box-shadow:#58200f 2px 3px 2px;bottom:0;clear:both}/*# sourceMappingURL=style.css.map */
