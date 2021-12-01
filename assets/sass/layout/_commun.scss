@@ -1,0 +1,45 @@
+html{
+    height:100%;
+    width:100%;
+}
+
+body{
+    height:100%;
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+
+/*----------------------------------*/
+
+.containerMainApp{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+
+.bannerApp {
+    width: 100%;
+    height: 15rem;
+    @include bannerApp-shadow($color-brownLight);
+    grid-column-start: 1;
+    grid-row-end: 1;
+    background-image: url("./../../img/banner.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $color-grey;
+    & img {
+        border-radius: 50%;
+        width: 10rem;    
+    }
+}
+
+.containerImagesBanner{
+    position: absolute;
+    top: 12rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+

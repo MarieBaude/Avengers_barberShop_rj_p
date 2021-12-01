@@ -1,0 +1,16 @@
+.containerMainApp {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50%;
+}
+
+
+.titleArticle {
+    margin-top: 10rem;
+    & a {
+        font-size: 5rem;
+        font-family: 'Lobster', cursive;
+        color: $color-brownDark;
+        text-shadow: $color-red 1px 1px 1px;    
+    }
+}
