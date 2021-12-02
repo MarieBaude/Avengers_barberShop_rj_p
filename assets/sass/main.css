@@ -56,52 +56,83 @@ table {
   font-family: 'EB Garamond', sans-serif;
 }
 
-.containerMainApp {
+/* nav bar css*/
+.gridContainerNavbar {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 100%;
       grid-template-columns: 100%;
-  -ms-grid-rows: 50% 50%;
-      grid-template-rows: 50% 50%;
-}
-
-.bannerApp {
   width: 100%;
-  height: 15rem;
-  -webkit-box-shadow: rgba(99, 49, 2, 0.973) 1.5rem 0rem 1.5rem;
-          box-shadow: rgba(99, 49, 2, 0.973) 1.5rem 0rem 1.5rem;
-  -ms-grid-column: 1;
-      grid-column-start: 1;
-  grid-row-end: 1;
-  background-image: url("./../img/banner.jpeg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #464646;
-}
-
-.containerImagesBanner {
+  gap: 0;
+  top: 0;
   position: absolute;
-  top: 12rem;
-  width: 100%;
+}
+
+.hamburger {
+  display: none;
+  margin: 2%;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: #58200f 1px 0 1px;
+          box-shadow: #58200f 1px 0 1px;
+}
+
+.navContainer {
+  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navContainer ul {
+  font-size: 1.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
 
-.bannerApp img {
-  border-radius: 50%;
-  width: 10rem;
+.navContainer h1 {
+  margin: 0;
+  margin-left: 1%;
 }
 
-@media all and (max-width: 1503px) {
-  /* banner */
-  .bannerApp img {
-    border-radius: 50%;
-    width: 7rem;
-  }
+.navContainer li a {
+  color: #58200f;
+  font-weight: bolder;
+  text-shadow: #ff3d02 1px 1px 1px;
+}
+
+.navContainer li a:hover {
+  color: gold;
+  font-weight: bolder;
+  text-shadow: goldenrod 1px 1px 1px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .containerfooter {
@@ -111,85 +142,13 @@ table {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   background-color: rgba(88, 32, 15, 0.815);
-  color: white;
   text-align: center;
+  position: relative;
   -webkit-box-shadow: #58200f 2px 3px 2px;
           box-shadow: #58200f 2px 3px 2px;
   bottom: 0;
   clear: both;
   position: relative;
-}
-
-.sectionInfos {
-  text-align: center;
-  font-size: 1vw;
-}
-
-.reservationContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 100%;
-}
-
-.tableReservation {
-  -webkit-box-shadow: #58200f 2px 3px 2px;
-          box-shadow: #58200f 2px 3px 2px;
-  width: 60%;
-}
-
-.sectionTable table {
-  width: 100%;
-  text-align: center;
-}
-
-.sectionTable th {
-  color: #58200f;
-  font-weight: bolder;
-  font-size: 2rem;
-}
-
-.puceTd {
-  background-color: gold;
-  border-radius: 5%;
-  color: #58200f;
-  -webkit-box-shadow: #58200f 2px 3px 2px;
-          box-shadow: #58200f 2px 3px 2px;
-  cursor: pointer;
-}
-
-.puceTd:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
-.sectionTable td div {
-  width: 5px;
-  height: 5px;
-  background-color: #e94715;
-}
-
-.sectionTable {
-  width: 50%;
-}
-
-.containerMainApp {
-  text-align: center;
-  font-size: 1.5vw;
-}
-
-@media all and (max-width: 800px) {
-  .containerfooter {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
 }
 
 html {
