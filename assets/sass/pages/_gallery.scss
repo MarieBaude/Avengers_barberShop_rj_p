@@ -84,14 +84,6 @@
     text-shadow: rgb(240, 138, 5) 2px 0 2px;
 }
 
-.containerImgGallery{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10rem;
-}
-
 @media all and (max-width:800px) {
     .imgGallery{
         width: 100%;

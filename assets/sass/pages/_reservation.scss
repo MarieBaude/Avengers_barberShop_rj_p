@@ -1,23 +1,14 @@
-@media all and (max-width:800px) {
-    .sectionTable{
-        margin-top: 3rem;
-        width: 30%;
-    }
-    .containerMainApp {
-        text-align: center;
-        font-size: 2rem;
-    }
+.reservationContainer{
+    display: flex;
+    flex-direction: column;
 }
 
-@media all and (max-width:1503px){
-
-    .sectionTable{
-        margin-top: 3rem;
-        width: 70%;
-    }
-
-    .containerMainApp {
-        text-align: center;
-        font-size: 3vw;
-    }
+.tableReservation{
+    box-shadow: rgb(88, 32, 15)2px 3px 2px;
+    width: 60%;
 }
+
+@media all and (min-width:0) {
+ 
+}
+
